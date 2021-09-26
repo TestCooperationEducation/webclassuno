@@ -2,11 +2,10 @@ H1 {
     color:rgb(0, 255, 76);
 }
 #mainHeader {
-    color: rgb(255, 0, 242);
-}
-#mainHeader {
-    margin-top: 250px;
-    border: solid blue;
+    margin-top: 50px;
+    margin-left: 200px;
+    border: solid rgb(255, 0, 34);
     width: 350px;
     height: 350px;
+    color: rgb(0, 4, 255);
 }

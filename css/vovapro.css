@@ -1,0 +1,16 @@
+#one {
+    margin-top: 50px;
+    margin-left: 0px;
+    border: solid rgb(255, 0, 34);
+    width: 350px;
+    height: 350px;
+    color: rgb(0, 4, 255);
+}
+#two {
+    margin-top: 50px;
+    margin-left: 400px;
+    border: solid rgb(0, 255, 34);
+    width: 350px;
+    height: 350px;
+    color: rgb(0, 4, 255);
+}

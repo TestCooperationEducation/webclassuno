@@ -1,8 +1,24 @@
-#one {
+#titleBoris {
     margin-top: 50px;
     margin-left: 200px;
     border: solid rgb(109, 179, 144);
-    width: 350px;
-    height: 350px;
+    width: 150px;
+    height: 50px;
+    color: rgb(40, 42, 143);
+}
+#descriptionBoris {
+    margin-top: 50px;
+    margin-left: 200px;
+    border: solid rgb(179, 129, 109);
+    width: 150px;
+    height: 50px;
+    color: rgb(40, 42, 143);
+}
+#contentBoris {
+    margin-top: 50px;
+    margin-left: 200px;
+    border: solid rgb(172, 179, 109);
+    width: 150px;
+    height: 50px;
     color: rgb(40, 42, 143);
 }

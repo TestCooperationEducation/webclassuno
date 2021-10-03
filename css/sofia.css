@@ -1,8 +1,24 @@
-#one {
+#titleSofia {
     margin-top: 50px;
     margin-left: 200px;
     border: solid rgb(255, 0, 34);
-    width: 350px;
-    height: 350px;
+    width: 150px;
+    height: 50px;
+    color: rgb(0, 4, 255);
+}
+#descriptionSofia {
+    margin-top: 50px;
+    margin-left: 200px;
+    border: solid rgb(255, 0, 34);
+    width: 150px;
+    height: 50px;
+    color: rgb(0, 4, 255);
+}
+#contentSofia {
+    margin-top: 50px;
+    margin-left: 200px;
+    border: solid rgb(255, 0, 34);
+    width: 150px;
+    height: 50px;
     color: rgb(0, 4, 255);
 }

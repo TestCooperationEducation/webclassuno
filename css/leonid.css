@@ -41,6 +41,14 @@
     border: solid 10px rgb(238, 255, 0);
   }
   
+  .popupGames {
+    border: solid 10px rgb(53, 23, 88);
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(36, 202, 194);
+    z-index: -99;
+  }
+
   .blog-header {
     line-height: 1;
     border-bottom: 1px solid #e5e5e5;

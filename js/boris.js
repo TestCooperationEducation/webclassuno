@@ -3,6 +3,6 @@
 //     $(".r1").toggle();
 //   });
 $('#but').on('click', function() {
-    alert("интересно?")
+    alert("выйти");
     $(".popupGames").toggle();
 });

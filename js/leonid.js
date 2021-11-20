@@ -5,3 +5,4 @@
   $('#but').on('click', function() {
     $(".popupGames").toggle();
   });
+  

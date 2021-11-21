@@ -3,6 +3,5 @@
 //     $(".r1").toggle();
 //   });
 $('#but').on('click', function() {
-    alert("выйти");
-    $(".popupGames").toggle();
+    $("#nowater").show();
 });

@@ -3,5 +3,5 @@
 //     $(".r1").toggle();
 //   });
 $('#but').on('click', function() {
-    $("#nowater").show();
+    $(".popupNowater").show();
 });

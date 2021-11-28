@@ -1,3 +1,3 @@
-$('#but').on('click', function() {
+$('#openWater').on('click', function() {
     $(".popupWater").show();
 });

@@ -37,4 +37,12 @@
   $('#closeWB').on('click', function() {
     $(".popupWB").hide();
   });
+ 
+  $('#toggleSoviet').on('click', function() {
+    $(".popupSoviet").toggle();
+  });
   
+  $('#closeSoviet').on('click', function() {
+    $(".popupSoviet").hide();
+  });
+ 

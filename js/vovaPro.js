@@ -1,13 +1,13 @@
 $('#angry').on('click', function() {
-    $(".popupAngry").show();
+    $(".popupAngry").toggle();
 });
 
 $('#desc').on('click', function() {
-    $(".popupDesc").show();
+    $(".popupDesc").toggle();
 });
 
 $('#riders').on('click', function() {
-    $(".popupRiders").show();
+    $(".popupRiders").toggle();
 });
 
 $('#closeAngry').on('click', function() {

@@ -30,3 +30,18 @@ $('#closeResurrection').on('click', function() {
     $(".popupResurrection").hide();
 });
 
+$('#openResurrection').on('click', function() {
+    $(".popupHurrah").toggle();
+});
+
+$('#closeResurrection').on('click', function() {
+    $(".popupHurrah").hide();
+});
+
+$('#openHurrah').on('click', function() {
+    $(".popupHurrah").toggle();
+});
+
+$('#closeResurrection').on('click', function() {
+    $(".popupHurrah").hide();
+});

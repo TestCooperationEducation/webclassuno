@@ -45,4 +45,52 @@
   $('#closeSoviet').on('click', function() {
     $(".popupSoviet").hide();
   });
+
+  $('#togglePizza').on('click', function() {
+    $(".popupPizza").toggle();
+  });
+
+  $('#closePizza').on('click', function() {
+    $(".popupPizza").toggle();
+  });
+
+  $('#toggleMcn').on('click', function() {
+    $(".popupMcn").toggle();
+  });
+
+  $('#closeMcn').on('click', function() {
+    $(".popupMcn").toggle();
+  });
+ 
+  $('#toggleSus').on('click', function() {
+    $(".popupSus").toggle();
+  });
+ 
+  $('#closeSus').on('click', function() {
+    $(".popupSus").toggle();
+  });
+ 
+  $('#toggleAbout').on('click', function() {
+    $(".popupAbout").toggle();
+  });
+ 
+  $('#closeAbout').on('click', function() {
+    $(".popupAbout").toggle();
+  });
+ 
+  $('#toggleSchool').on('click', function() {
+    $(".popupSchool").toggle();
+  });
+ 
+  $('#closeSchool').on('click', function() {
+    $(".popupSchool").toggle();
+  });
+ 
+  $('#toggleHob').on('click', function() {
+    $(".popupHob").toggle();
+  });
+ 
+  $('#closeHob').on('click', function() {
+    $(".popupHob").toggle();
+  });
  

@@ -80,7 +80,6 @@
           </div>
         </div>
       </div>
-    </div>
       <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupDescenders">      
         <p class="lead mb-0"></p><button id="closeDescenders">Закрыть</button>
       </div>
@@ -102,7 +101,8 @@
       <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupRiders">      
         <p class="lead mb-0"></p><button id="closeRiders">Закрыть</button>
       </div>
-    
+    </div>
+
     <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark c1">
       <div class="col-md-6 px-0 c2">
         <a name="channels"></a>
@@ -158,8 +158,12 @@
         <a name="dishes"></a>
         <H1 class="display-4 fst-italic">Пицца</H1>
         <p class="lead my-3">Тонкая лепёшка из дрожжевого теста с запечённой на ней сложной начинкой (традиционное итальянское блюдо).</p>
-        <p class="lead mb-0"><a href="#" class="text-white fw-bold">Подробнее...</a></p>
+        <p class="lead mb-0"><button id="togglePizza">Подробнее...</button></p>
       </div>
+    </div>
+
+    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupPizza">      
+      <p class="lead mb-0"></p><button id="closePizza">Закрыть</button>
     </div>
 
     <div class="row mb-2 r1">
@@ -168,7 +172,7 @@
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Макароны с сыром</h3>
             <p class="card-text mb-auto">Блюдо из вареных макарон с сыром, чаще всего это чеддер.</p>
-            <a href="#" class="stretched-link">Continue reading</a>
+            <p class="lead mb-0"><button id="toggleMcn">Подробнее...</button></p>
           </div>
           <div class="col-auto d-none d-lg-block">
             <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -176,12 +180,17 @@
           </div>
         </div>
       </div>
+
+      <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupMcn">      
+        <p class="lead mb-0"></p><button id="closeMcn">Закрыть</button>
+      </div>
+
       <div class="col-md-6">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Суши</h3>
             <p class="mb-auto">Блюдо традиционной японской кухни, приготовленное из риса с уксусной приправой и различных морепродуктов, а также других ингредиентов.</p>
-            <a href="#" class="stretched-link">Continue reading</a>
+            <p class="lead mb-0"><button id="toggleSus">Подробнее...</button></p>
           </div>
           <div class="col-auto d-none d-lg-block">
             <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -191,13 +200,21 @@
       </div>
     </div>
 
+    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupSus">      
+      <p class="lead mb-0"></p><button id="closeSus">Закрыть</button>
+    </div>
+
     <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark c1">
       <div class="col-md-6 px-0 c2">
         <a name="about"></a>
         <H1 class="display-4 fst-italic">Обо мне</H1>
         <p class="lead my-3">Меня зовут Леонид, мне 12 лет, я учусь в 6А классе</p>
-        <p class="lead mb-0"><a href="#" class="text-white fw-bold">Подробнее...</a></p>
+        <p class="lead mb-0"><button id="toggleAbout">Подробнее...</button></p>
       </div>
+    </div>
+
+    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupAbout">      
+      <p class="lead mb-0"></p><button id="closeAbout">Закрыть</button>
     </div>
 
     <div class="row mb-2 r1">
@@ -206,7 +223,7 @@
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Моя школа</h3>
             <p class="card-text mb-auto">Я учусь в МАОУ Лицей №1, поступил я сюда в возрасте 11 лет, мне нравится эта школа.</p>
-            <a href="#" class="stretched-link">Подробнее...</a>
+            <p class="lead mb-0"><button id="toggleSchool">Подробнее...</button></p>
           </div>
           <div class="col-auto d-none d-lg-block">
             <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -214,12 +231,17 @@
           </div>
         </div>
       </div>
+
+      <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupSchool">      
+        <p class="lead mb-0"></p><button id="closeSchool">Закрыть</button>
+      </div>
+
       <div class="col-md-6">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Мои хобби</h3>
             <p class="mb-auto">Я занимаюсь плаванием и разработкой сайтов.</p>
-            <a href="#" class="stretched-link">Подробнее...</a>
+            <p class="lead mb-0"><button id="toggleHob">Подробнее...</button></p>
           </div>
           <div class="col-auto d-none d-lg-block">
             <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -228,6 +250,11 @@
         </div>
       </div>
     </div>
+
+    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupHob">      
+      <p class="lead mb-0"></p><button id="closeHob">Закрыть</button>
+    </div>
+
   </main>
 
   <footer class="blog-footer f1">

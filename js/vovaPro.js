@@ -21,7 +21,3 @@ $('#closeDesc').on('click', function() {
 $('#closeRiders').on('click', function() {
     $(".popupRiders").hide();
 });
-
-$('#closeTest').on('click', function() {
-    $(".popupRiders").hide();
-});

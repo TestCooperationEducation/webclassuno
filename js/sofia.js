@@ -61,3 +61,51 @@ $('#openCrush').on('click', function() {
 $('#closeCrush').on('click', function() {
     $(".popupCrush").hide();
 });
+$('#openRubik').on('click', function() {
+    $(".popupRubik").toggle();
+});
+
+$('#closeRubik').on('click', function() {
+    $(".popupRubik").hide();
+});
+
+
+$('#openRain').on('click', function() {
+    $(".popupRain").toggle();
+});
+
+$('#closeRain').on('click', function() {
+    $(".popupRain").hide();
+});
+
+$('#openWeep').on('click', function() {
+    $(".popupWeep").toggle();
+});
+
+$('#closeWeep').on('click', function() {
+    $(".popupWeep").hide();
+});
+
+$('#openParrot').on('click', function() {
+    $(".popupParrot").toggle();
+});
+
+$('#closeParrot').on('click', function() {
+    $(".popupParrot").hide();
+});
+
+$('#openFrog').on('click', function() {
+    $(".popupFrog").toggle();
+});
+
+$('#closeFrog').on('click', function() {
+    $(".popupFrog").hide();
+});
+
+$('#openCoffee').on('click', function() {
+    $(".popupCoffee").toggle();
+});
+
+$('#closeCoffee').on('click', function() {
+    $(".popupCoffee").hide();
+});

@@ -22,25 +22,67 @@ $('#closeSquidThree').on('click', function() {
     $(".popupSquidThree").hide();
 });
 $('#openPoppyOne').on('click', function() {
-    $(".popupSquidOne").toggle();
+    $(".popupPoppyOne").toggle();
 });
 
 $('#closePoppyOne').on('click', function() {
-    $(".popupSquidOne").hide();
+    $(".popupPoppyOne").hide();
 });
 
 $('#openPoppyTwo').on('click', function() {
-    $(".popupSquidTwo").toggle();
+    $(".popupPoppyTwo").toggle();
 });
 
 $('#closePoppyTwo').on('click', function() {
-    $(".popupSquidTwo").hide();
+    $(".popupPoppyTwo").hide();
 });
 
 $('#openPoppyThree').on('click', function() {
-    $(".popupSquidThree").toggle();
+    $(".popupPoppyThree").toggle();
 });
 
 $('#closePoppyThree').on('click', function() {
-    $(".popupSquidThree").hide();
+    $(".popupPoppyThree").hide();
+});
+$('#openParrotOne').on('click', function() {
+    $(".popupParrotOne").toggle();
+});
+
+$('#closeParrotOne').on('click', function() {
+    $(".popupParrotOne").hide();
+});
+$('#openParrotTwo').on('click', function() {
+    $(".popupParrotTwo").toggle();
+});
+
+$('#closeParrotTwo').on('click', function() {
+    $(".popupParrotTwo").hide();
+});
+$('#openParrotThree').on('click', function() {
+    $(".popupParrotThree").toggle();
+});
+
+$('#closeParrotThree').on('click', function() {
+    $(".popupParrotThree").hide();
+});
+$('#openMonkeOne').on('click', function() {
+    $(".popupMonkeOne").toggle();
+});
+
+$('#closeMonkeOne').on('click', function() {
+    $(".popupMonkeOne").hide();
+});
+$('#openMonkeTwo').on('click', function() {
+    $(".popupMonkeTwo").toggle();
+});
+
+$('#closeMonkeTwo').on('click', function() {
+    $(".popupMonkeTwo").hide();
+});
+$('#openMonkeThree').on('click', function() {
+    $(".popupMonkeThree").toggle();
+});
+
+$('#closeMonkeThree').on('click', function() {
+    $(".popupMonkeThree").hide();
 });

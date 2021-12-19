@@ -30,18 +30,34 @@ $('#closeResurrection').on('click', function() {
     $(".popupResurrection").hide();
 });
 
-$('#openResurrection').on('click', function() {
-    $(".popupHurrah").toggle();
-});
-
-$('#closeResurrection').on('click', function() {
-    $(".popupHurrah").hide();
-});
-
 $('#openHurrah').on('click', function() {
     $(".popupHurrah").toggle();
 });
 
-$('#closeResurrection').on('click', function() {
+$('#closeHurrah').on('click', function() {
     $(".popupHurrah").hide();
+});
+
+$('#openPop-it').on('click', function() {
+    $(".popupPop-it").toggle();
+});
+
+$('#closePop-it').on('click', function() {
+    $(".popupPop-it").hide();
+});
+
+$('#openBodya').on('click', function() {
+    $(".popupBodya").toggle();
+});
+
+$('#closeBodya').on('click', function() {
+    $(".popupBodya").hide();
+});
+
+$('#openCrush').on('click', function() {
+    $(".popupCrush").toggle();
+});
+
+$('#closeCrush').on('click', function() {
+    $(".popupCrush").hide();
 });

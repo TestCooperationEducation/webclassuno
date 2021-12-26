@@ -15,8 +15,32 @@
   border: solid 2px green;
 }
 
-.c1, .r1 {
+.r1 {
   border: solid 10px rgb(128, 0, 0);
+}
+
+.squidgame {
+  border: solid 10px rgb(128, 0, 0);
+  background-image: url("../images/zorbrith22/squid.jpg");
+  background-size: cover;
+}
+
+.poppyOne {
+  border: solid 10px rgb(128, 0, 0);
+  background-image: url("../images/zorbrith22/poppy.jpg");
+  background-size: cover;
+}
+
+.parrotOne {
+  border: solid 10px rgb(128, 0, 0);
+  background-image: url("../images/zorbrith22/parrot.jpg");
+  background-size: cover;
+}
+
+.monkeOne {
+  border: solid 10px rgb(128, 0, 0);
+  background-image: url("../images/zorbrith22/monkeone.jpg");
+  background-size: cover;
 }
 
 .c2, .r2{

@@ -38,22 +38,42 @@ $('#closeDesc').on('click', function() {
     $(".popupDesc").hide();
 });
 
-$('#closeAngry').on('click', function() {
-    $(".popupAngry").hide();
-});
-
 $('#openRiders').on('click', function() {
-    $(".popupRiders").toggle();
-})
+    $(".popupDesc").toggle();
+});
 
 $('#closeRiders').on('click', function() {
     $(".popupRiders").hide();
 });
 
-$('#openAngryy').on('click', function() {
-    $(".popupAngryy").toggle();
+$('#openCity').on('click', function() {
+    $(".popupCity").toggle();
 });
 
-$('#closeAngryy').on('click', function() {
-    $(".popupAngryy").hide();
+$('#closeCity').on('click', function() {
+    $(".popupCity").hide();
+});
+
+$('#openStorm').on('click', function() {
+    $(".popupStorm").toggle();
+});
+
+$('#closeStorm').on('click', function() {
+    $(".popupStorm").hide();
+});
+
+$('#openWorld').on('click', function() {
+    $(".popupWorld").toggle();
+});
+
+$('#closeWorld').on('click', function() {
+    $(".popupWorld").hide();
+});
+
+$('#openFortnite').on('click', function() {
+    $(".popupFortnite").toggle();
+});
+
+('#closeFortnite').on('click', function() {
+    $(".popupFortnite").hide();
 });

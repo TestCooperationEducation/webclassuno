@@ -102,10 +102,18 @@ $('#closeFrog').on('click', function() {
     $(".popupFrog").hide();
 });
 
-$('#openCoffee').on('click', function() {
+$('#openСoffee').on('click', function() {
     $(".popupCoffee").toggle();
 });
 
 $('#closeCoffee').on('click', function() {
     $(".popupCoffee").hide();
+});
+
+$('#openAlphabet').on('click', function() {
+    $(".popupAlphabet").toggle();
+});
+
+$('#closeAlphabet').on('click', function() {
+    $(".popupAlphabet").hide();
 });

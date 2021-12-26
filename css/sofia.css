@@ -16,8 +16,14 @@
   border: solid 2px green;
 }
 
-.c1, .r1 {
+.r1 {
   border: solid 10px rgb(128, 0, 0);
+}
+
+.water {
+  border: solid 10px rgb(128, 0, 0);
+  background-image: url("../images/Sofia/water.jpg");
+  background-size: cover;
 }
 
 .c2, .r2{
@@ -30,7 +36,9 @@
 }
 
 .popupWater, .popupWaterOne, .popupWaterTwo, .popupRiders,
-.popupResurrection, .popupHurrah,.popupPop-it,.popupBodya,.popupCrush,.popupRubik,.popupRain,.popupWeep,.popupParrot,.popupCoffee {
+.popupResurrection, .popupHurrah,.popupPop-it,.popupBodya,
+.popupCrush, .popupRubik, .popupRain,.popupWeep, .popupParrot,
+.popupCoffee, .popupAlphabet, .popupFrog {
   border: solid 10px rgb(172, 30, 77);
   width: 100%;
   height: 100%;

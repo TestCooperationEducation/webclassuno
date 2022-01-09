@@ -47,8 +47,8 @@
   border: solid 10px rgb(238, 255, 0);
 }
 
-.popupSquidOne, .popupSquidTwo, .popupSquidThree, .popupPoppyOne, 
-.popupPoppyTwo, .popupPoppyThree, .popupParrotOne, .popupParrotTwo, 
+.popupSquidOne, .popupSquidTwo, .popupSquidThree, .popupPoppy, 
+.popupRainWorld, .popupfnf, .popupParrotOne, .popupParrotTwo, 
 .popupParrotThree, .popupMonkeOne, .popupMonkeTwo, .popupMonkeThree {
   border: solid 10px rgb(53, 23, 88);
   width: 100%;

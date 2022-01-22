@@ -37,24 +37,66 @@
     border: solid 10px rgb(128, 0, 0);
   }
   
-  .angrybirds {
-    border: solid 10px rgb(128, 0, 0);
+  .angrybirds { 
     background-image: url("../images/leonid/ab.jpg");
+    background-size: cover;
+  }
+
+  .descenders {
+    background-image: url("../images/leonid/descenders.jpg");
     background-size: cover;
   }
 
   .masha {
-    border: solid 10px rgb(128, 0, 0);
     background-image: url("../images/leonid/masha.jpg");
     background-size: cover;
   }
 
-  .angrybirds {
-    border: solid 10px rgb(128, 0, 0);
-    background-image: url("../images/leonid/ab.jpg");
+  .riders {
+    background-image: url("../images/leonid/riders.jpg");
     background-size: cover;
   }
-  
+
+  .warner {
+    background-image: url("../images/leonid/wb.jpg");
+    background-size: cover;
+  }
+
+  .sov {
+    background-image: url("../images/leonid/sov.jpg");
+    background-size: cover;
+  }
+
+  .pizza { 
+    background-image: url("../images/leonid/piz.jpg");
+    background-size: cover;
+  }
+
+  .mac { 
+    background-image: url("../images/leonid/mac.jpg");
+    background-size: cover;
+  }
+
+  .sushi { 
+    background-image: url("../images/leonid/sushi.jpg");
+    background-size: cover;
+  }
+
+  .about { 
+    background-image: url("../images/leonid/about.jpg");
+    background-size: cover;
+  }
+
+  .school { 
+    background-image: url("../images/leonid/school.jpg");
+    background-size: cover;
+  }
+
+  .hobby { 
+    background-image: url("../images/leonid/hobby.jpg");
+    background-size: cover;
+  }
+
   .c2, .r2{
     border: solid 10px rgb(238, 255, 0);
   }

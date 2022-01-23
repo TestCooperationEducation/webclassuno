@@ -21,28 +21,28 @@ $('#openSquidThree').on('click', function() {
 $('#closeSquidThree').on('click', function() {
     $(".popupSquidThree").hide();
 });
-$('#openPoppyOne').on('click', function() {
-    $(".popupPoppyOne").toggle();
+$('#openPoppy').on('click', function() {
+    $(".popupPoppy").toggle();
 });
 
-$('#closePoppyOne').on('click', function() {
-    $(".popupPoppyOne").hide();
+$('#closePoppy').on('click', function() {
+    $(".popupPoppy").hide();
 });
 
-$('#openPoppyTwo').on('click', function() {
-    $(".popupPoppyTwo").toggle();
+$('#openRainWorld').on('click', function() {
+    $(".popupRainWorld").toggle();
 });
 
-$('#closePoppyTwo').on('click', function() {
-    $(".popupPoppyTwo").hide();
+$('#closeRainWorld').on('click', function() {
+    $(".popupRainWorld").hide();
 });
 
-$('#openPoppyThree').on('click', function() {
-    $(".popupPoppyThree").toggle();
+$('#openfnf').on('click', function() {
+    $(".popupfnf").toggle();
 });
 
-$('#closePoppyThree').on('click', function() {
-    $(".popupPoppyThree").hide();
+$('#closefnf').on('click', function() {
+    $(".popupfnf").hide();
 });
 $('#openParrotOne').on('click', function() {
     $(".popupParrotOne").toggle();

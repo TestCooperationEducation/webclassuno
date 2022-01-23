@@ -74,6 +74,22 @@ $('#openFortnite').on('click', function() {
     $(".popupFortnite").toggle();
 });
 
-('#closeFortnite').on('click', function() {
+$('#closeFortnite').on('click', function() {
     $(".popupFortnite").hide();
+});
+
+$('#openGta').on('click', function() {
+    $(".popupGta").toggle();
+});
+
+$('#closeGta').on('click', function() {
+    $(".popupGta").hide();
+});
+
+$('#openWar').on('click', function() {
+    $(".popupWar").toggle();
+});
+
+$('#closeWar').on('click', function() {
+    $(".popupWar").hide();
 });

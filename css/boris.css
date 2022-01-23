@@ -125,7 +125,7 @@
     margin-bottom: 0;
   }
 
-  .popupCS, .popupDesc, .popupRiders,
+  .popupCS, .popupDesc, .popupRiders, .popupGta, .popupWar,
   .popupBeamng, .popupFarming, .popupAngry, .popupCity, .popupStorm, .popupWorld, .popupFortnite {
     border: solid 10px rgb(53, 23, 88);
     width: 100%;

@@ -21,7 +21,17 @@
 
 .squidgame {
   border: solid 10px rgb(128, 0, 0);
+  background-image: url("../images/zorbrith22/squidgame.jpg");
+  background-size: cover;
+}
+
+.squidgametwo {
   background-image: url("../images/zorbrith22/squid.jpg");
+  background-size: cover;
+} 
+
+.squidgamethree {
+  background-image: url("../images/zorbrith22/dollsquid.jpg");
   background-size: cover;
 }
 
@@ -29,11 +39,31 @@
   border: solid 10px rgb(128, 0, 0);
   background-image: url("../images/zorbrith22/poppy.jpg");
   background-size: cover;
+} 
+
+.rainworld {
+  background-image: url("../images/zorbrith22/slugcat.jpg");
+  background-size: cover;
+}
+
+.fnf {
+  background-image: url("../images/zorbrith22/bf.png");
+  background-size: cover;
 }
 
 .parrotOne {
   border: solid 10px rgb(128, 0, 0);
   background-image: url("../images/zorbrith22/parrot.jpg");
+  background-size: cover;
+}
+
+.parrottwo {
+  background-image: url("../images/zorbrith22/sing.jpg");
+  background-size: cover;
+} 
+
+.parrotthree {
+  background-image: url("../images/zorbrith22/money.jpg");
   background-size: cover;
 }
 

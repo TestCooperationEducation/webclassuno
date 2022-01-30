@@ -83,7 +83,7 @@
   }
 
   .about { 
-    background-image: url("../images/leonid/about.jpg");
+    background-image: url("../images/leonid/about.png");
     background-size: cover;
   }
 
@@ -238,7 +238,6 @@
   #content .item {
     position: relative;
     display: inline-block;
-    background: rgba(200, 255, 255, 0.5);
     background-size: cover;
     /* box-shadow: 0 0 0 3px #000; */
     padding-top: 75%;
@@ -251,7 +250,7 @@
     right: 0;
     bottom: 0;
     overflow: hidden;
-    background: #930;
+    padding: 5%;
     /* border: 2px solid green; */
   }
   

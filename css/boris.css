@@ -15,7 +15,7 @@
     border: solid 2px green;
   }
   
-  .c1, .r1 {
+  .r1 {
     border: solid 10px rgb(128, 0, 0);
   }
   
@@ -23,6 +23,51 @@
     border: solid 10px rgb(238, 255, 0);
   }
   
+  .csgo {
+    background-image: url("../images/Boris/cs.jpg");
+    background-size: cover;
+  }
+
+  .angryBirds {
+    background-image: url("../images/Boris/angry.jpg");
+    background-size: cover;
+  }
+
+  .citycardriving {
+    background-image: url("../images/Boris/city.jpg");
+    background-size: cover;
+  }
+
+  .fortnite {
+    background-image: url("../images/Boris/fort.jpg");
+    background-size: cover;
+  }
+
+  .beamngdrive {
+    background-image: url("../images/Boris/beam.jpg");
+    background-size: cover;
+  }
+
+  .farming17 {
+    background-image: url("../images/Boris/farm17.jpg");
+    background-size: cover;
+  }
+
+  .desc {
+    background-image: url("../images/Boris/desc.jpg");
+    background-size: cover;
+  }
+
+  .Riders {
+    background-image: url("../images/Boris/riders.jpg");
+    background-size: cover;
+  }
+
+  .stormworks {
+    background-image: url("../images/Boris/storm.jpg");
+    background-size: cover;
+  }
+
   .blog-header {
     line-height: 1;
     border-bottom: 1px solid #e5e5e5;
@@ -125,7 +170,7 @@
     margin-bottom: 0;
   }
 
-  .popupCS, .popupDesc, .popupRiders,
+  .popupCS, .popupDesc, .popupRiders, .popupGta, .popupWar,
   .popupBeamng, .popupFarming, .popupAngry, .popupCity, .popupStorm, .popupWorld, .popupFortnite {
     border: solid 10px rgb(53, 23, 88);
     width: 100%;

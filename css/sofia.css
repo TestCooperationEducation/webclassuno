@@ -52,6 +52,67 @@
 }
 
 
+.waterone {
+  background-image: url("../images/Sofia/WaterOne.jpg");
+  background-size: cover;
+}
+
+
+
+.WaterTwo {
+  background-image: url("../images/Sofia/WaterTwo.jpg");
+  background-size: cover;
+}
+
+
+.Hurrah {
+  background-image: url("../images/Sofia/Hurrah.jpg");
+  background-size: cover;
+}
+
+
+.Pop-it {
+  background-image: url("../images/Sofia/Pop-it.jpg");
+  background-size: cover;
+}
+
+
+.Crush {
+  background-image: url("../images/Sofia/Crush.jpg");
+  background-size: cover;
+}
+
+
+.Rubik {
+  background-image: url("../images/Sofia/Rubik.jpg");
+  background-size: cover;
+}
+
+
+.Weep {
+  background-image: url("../images/Sofia/Weep.jpg");
+  background-size: cover;
+}
+
+
+.Parrot {
+  background-image: url("../images/Sofia/Parrot.jpg");
+  background-size: cover;
+}
+
+
+.Coffee {
+  background-image: url("../images/Sofia/Coffee.jpg");
+  background-size: cover;
+}
+
+
+.Alphabet {
+  background-image: url("../images/Sofia/Alphabet.jpg");
+  background-size: cover;
+}
+
+
 .c2, .r2{
   border: solid 10px rgb(238, 255, 0);
 }

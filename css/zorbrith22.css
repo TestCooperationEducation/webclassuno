@@ -87,6 +87,11 @@
   /* border: solid 10px rgb(238, 255, 0); */
 }
 
+.sqTwo {
+  background-image: url("../images/zorbrith22/squidtwo.jpg");
+  background-size: cover;
+}
+
 .popupSquidOne, .popupSquidTwo, .popupSquidThree, .popupPoppy, 
 .popupRainWorld, .popupfnf, .popupParrotOne, .popupParrotTwo, 
 .popupParrotThree, .popupMonkeOne, .popupMonkeTwo, .popupMonkeThree {

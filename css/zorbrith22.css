@@ -87,8 +87,78 @@
   /* border: solid 10px rgb(238, 255, 0); */
 }
 
+.sqOne {
+  background-image: url("../images/zorbrith22/squidone.jpg");
+  background-size: cover;
+}
+
 .sqTwo {
   background-image: url("../images/zorbrith22/squidtwo.jpg");
+  background-size: cover;
+}
+
+.sqThree {
+  background-image: url("../images/zorbrith22/squidthree.jpg");
+  background-size: cover;
+}
+
+.ppOne {
+  background-image: url("../images/zorbrith22/huggy.jpg");
+  background-size: cover;
+}
+
+.ppTwo {
+  background-image: url("../images/zorbrith22/huggyone.jpg");
+  background-size: cover;
+}
+
+.rwOne {
+  background-image: url("../images/zorbrith22/wingcat.jpg");
+  background-size: cover;
+}
+
+.rwTwo {
+  background-image: url("../images/zorbrith22/hunter.jpg");
+  background-size: cover;
+}
+
+.fnfOne {
+  background-image: url("../images/zorbrith22/gf.png");
+  background-size: cover;
+}
+
+.fnfTwo {
+  background-image: url("../images/zorbrith22/fnf.png");
+  background-size: cover;
+}
+
+.prOne {
+  background-image: url("../images/zorbrith22/smoke.jpg");
+  background-size: cover;
+}
+
+.prTwo {
+  background-image: url("../images/zorbrith22/russian.jpg");
+  background-size: cover;
+}
+
+.prThree {
+  background-image: url("../images/zorbrith22/choose.jpg");
+  background-size: cover;
+}
+
+.mnOne {
+  background-image: url("../images/zorbrith22/scam.jpg");
+  background-size: cover;
+}
+
+.mnTwo {
+  background-image: url("../images/zorbrith22/monkeyswim.jpg");
+  background-size: cover;
+}
+
+.mnThree {
+  background-image: url("../images/zorbrith22/mokeygirl.jpg");
   background-size: cover;
 }
 

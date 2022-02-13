@@ -112,10 +112,16 @@
   background-size: cover;
 }
 
-.wat {
-  background-image: url("../images/Sofia/Alphabet.jpg");
+.wattt {
+  background-image: url("../images/sofia/Wateer.jpg");
   background-size: cover;
 }
+
+.w4 {
+  background-image: url("../images/sofia/Wateer.jpg");
+  background-size: cover;
+}
+
 
 
 .c2, .r2{
@@ -161,7 +167,6 @@
 #content .item {
   position: relative;
   display: inline-block;
-  background: rgba(200, 255, 255, 0.5);
   background-size: cover;
   /* box-shadow: 0 0 0 3px #000; */
   padding-top: 75%;
@@ -174,7 +179,6 @@
   right: 0;
   bottom: 0;
   overflow: hidden;
-  background: #930;
   padding-left: 10%;
   padding-right: 10%;
 }

@@ -30,7 +30,7 @@
       <header class="blog-header py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
           <div class="col-4 pt-1">
-            <a class="link-secondary" href="#"><H1>ПОДПИСАТЬСЯ</H1>></a>
+            <a class="link-secondary" href="#"><H1></H1></a>
           </div>
           <div class="col-4 text-center">
             <a class="blog-header-logo text-dark" href="#">вещи</a>
@@ -49,8 +49,7 @@
           <a class="p-2 link-secondary" href="#films">films</a>
           <a class="p-2 link-secondary" href="#video games">video games</a>
           <a class="p-2 link-secondary" href="#pictures">pictures</a>
-          <a class="p-2 link-secondary" href="#funny memes">funny memes</a>
-          
+          <a class="p-2 link-secondary" href="#funny memes">funny memes</a>          
         </nav>
       </div>
     </div>
@@ -62,15 +61,16 @@
           <H1 class="display-4 fst-italic">squid game</H1>
           <p class="lead my-3">фильм про детские игры где приз большое количество денег
           </p>
-          <p class="lead mb-0"><button id="openSquidOne">подробнее...</button>
+          <p class="lead mb-0"><button id="openSquidOne"><a href="#squid">подробнее...</a></button>
         </div>
       </div>
 
       <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupSquidOne">      
         <p class="lead mb-0"></p><button id="closeSquidOne">Закрыть</button>
         <div id="content">
-          <div class="grid">
-            <div class="item">
+          <a name="squid"></a>          
+          <div class="grid">            
+            <div class="item">              
                 <div class="div sqOne">
                     <!-- <img src="../images/zorbrith22/squidone.jpg"> -->
                 </div>
@@ -88,7 +88,7 @@
             <div class="col p-4 d-flex flex-column position-static">
               <h3 class="mb-0">squid game</h3>
               <p class="card-text mb-auto">там все померают кетчупом</p>
-              <button id="openSquidTwo">подробнее...</button>
+              <button id="openSquidTwo"><a href="#squidTwo">подробнее...</a></button>
             </div>
             <div class="col-auto d-none d-lg-block squidgametwo">
               <svg class="bd-placeholder-img" width="200" height="250" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>  
@@ -99,6 +99,7 @@
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupSquidTwo">      
           <p class="lead mb-0"></p><button id="closeSquidTwo">Закрыть</button>
           <div id="content">
+            <a name="squidTwo"></a>
             <div class="grid">
               <div class="item">
                   <div class="div sqTwo">
@@ -117,7 +118,7 @@
             <div class="col p-4 d-flex flex-column position-static">
               <h3 class="mb-0">squid game</h3>
               <p class="mb-auto">финал эпичный посмотрите</p>
-              <button id="openSquidThree">подробнее...</button>
+              <button id="openSquidThree"><a href="#squidThree">подробнее...</a></button>
             </div>
             <div class="col-auto d-none d-lg-block squidgamethree">
               <svg class="bd-placeholder-img" width="200" height="250"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><text x="50%" y="50%" fill="#eceeef" dy=".3em">mfxk</text></svg>  
@@ -127,6 +128,7 @@
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupSquidThree">      
           <p class="lead mb-0"></p><button id="closeSquidThree">Закрыть</button>
           <div id="content">
+            <a name="squidThree"></a>
             <div class="grid">
               <div class="item">
                   <div class="div sqThree">
@@ -146,12 +148,13 @@
         <div class="col-md-6 px-0 c2">
           <H1 class="display-4 fst-italic">poppy playtime</H1>
           <p class="lead my-3">страшная игра про игрушек</p>
-          <p class="lead mb-0"><button id="openPoppy">подробнее...</button>
+          <p class="lead mb-0"><button id="openPoppy"><a href="#poppy">подробнее...</a></button>
         </div>
       </div>
       <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupPoppy">      
         <p class="lead mb-0"></p><button id="closePoppy">Закрыть</button>
         <div id="content">
+          <a name="poppy"></a>
           <div class="grid">
             <div class="item">
                 <div class="div ppOne">
@@ -180,7 +183,7 @@
             <div class="col p-4 d-flex flex-column position-static">
               <h3 class="mb-0">RainWorld</h3>
               <p class="card-text mb-auto">игра про слизню-кисю</p>
-              <p class="lead mb-0"><button id="openRainWorld">подробнее...</button>
+              <p class="lead mb-0"><button id="openRainWorld"><a href="#world">подробнее...</a></button>
             </div>
             
             <div class="col-auto d-none d-lg-block rainworld">
@@ -193,6 +196,7 @@
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupRainWorld">      
           <p class="lead mb-0"></p><button id="closeRainWorld">Закрыть</button>
           <div id="content">
+            <a name="world"></a>
             <div class="grid">
               <div class="item">
                   <div class="div rwOne">
@@ -219,7 +223,7 @@
             <div class="col p-4 d-flex flex-column position-static">
               <h3 class="mb-0">Fnf</h3>
               <p class="mb-auto">ритм игра про бойфренда у которого синие я__а</p>
-              <p class="lead mb-0"><button id="openfnf">подробнее...</button>
+              <p class="lead mb-0"><button id="openfnf"><a href="#fnf">подробнее...</a></button>
             </div>
 
             <div class="col-auto d-none d-lg-block fnf">
@@ -232,6 +236,7 @@
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupfnf">      
           <p class="lead mb-0"></p><button id="closefnf">Закрыть</button>
           <div id="content">
+            <a name="fnf"></a>
             <div class="grid">
               <div class="item">
                   <div class="div fnfOne">
@@ -258,13 +263,14 @@
         <div class="col-md-6 px-0 c2">
           <H1 class="display-4 fst-italic">попугай</H1>
           <p class="lead my-3">вевевевевевев *смотрит.* вевевевевеве *смотрит злобным взглядом.*</p>
-          <button id="openParrotOne">подробнее...</button>
+          <button id="openParrotOne"><a href="#parrot">подробнее...</a></button>
         </div>
       </div>
 
       <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupParrotOne">      
         <p class="lead mb-0"></p><button id="closeParrotOne">Закрыть</button>
         <div id="content">
+          <a name="parrot"></a>
           <div class="grid">
             <div class="item">
                 <div class="div prOne">
@@ -284,7 +290,7 @@
             <div class="col p-4 d-flex flex-column position-static">
               <h3 class="mb-0">попугай</h3>
               <p class="card-text mb-auto">*взял пистоле*вевеве*надел шапку*</p>
-              <button id="openParrotTwo">подробнее...</button>
+              <button id="openParrotTwo"><a href="#parrotwo">подробнее...</a></button>
             </div>
             <div class="col-auto d-none d-lg-block parrottwo">
               <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
@@ -296,6 +302,7 @@
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupParrotTwo">      
           <p class="lead mb-0"></p><button id="closeParrotTwo">Закрыть</button>
           <div id="content">
+            <a name="parrotwo"></a>
             <div class="grid">
               <div class="item">
                   <div class="div prTwo">
@@ -314,7 +321,7 @@
             <div class="col p-4 d-flex flex-column position-static">
               <h3 class="mb-0">попугай</h3>
               <p class="mb-auto">*застрелил*конец</p>
-              <p class="lead mb-0"><button id="openParrotThree">подробнее...</button>
+              <p class="lead mb-0"><button id="openParrotThree"><a href="#parrothree">подробнее...</a></button>
             </div>            
             <div class="col-auto d-none d-lg-block parrotthree">
               <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
@@ -326,6 +333,7 @@
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupParrotThree">      
           <p class="lead mb-0"></p><button id="closeParrotThree">Закрыть</button>
           <div id="content">
+            <a name="parrothree"></a>
             <div class="grid">
               <div class="item">
                   <div class="div prThree">
@@ -346,13 +354,14 @@
         <div class="col-md-6 px-0 c2">
           <H1 class="display-4 fst-italic">обезьяна стучит в дверь</H1>
           <p class="lead my-3">откройте дверь пить хочу</p>
-          <p class="lead mb-0"><button id="openMonkeOne">подробнее...</button>
+          <p class="lead mb-0"><button id="openMonkeOne"><a href="#monke">подробнее...</a></button>
         </div>
       </div>
 
       <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupMonkeOne">      
         <p class="lead mb-0"></p><button id="closeMonkeOne">Закрыть</button>
         <div id="content">
+          <a name="monke"></a>
           <div class="grid">
             <div class="item">
                 <div class="div mnOne">
@@ -372,7 +381,7 @@
             <div class="col p-4 d-flex flex-column position-static">
               <h3 class="mb-0">обезьяна стучит в дверь</h3>
               <p class="card-text mb-auto">щя помру откройте *кричит*</p>
-              <p class="lead mb-0"><button id="openMonkeTwo">подробнее...</button>
+              <p class="lead mb-0"><button id="openMonkeTwo"><a href="#monketwo">подробнее...</a></button>
             </div>
             <div class="col-auto d-none d-lg-block monketwo">
               <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
@@ -383,6 +392,7 @@
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupMonkeTwo">      
           <p class="lead mb-0"></p><button id="closeMonkeTwo">Закрыть</button>
           <div id="content">
+            <a name="monketwo"></a>
             <div class="grid">
               <div class="item">
                   <div class="div mnTwo">
@@ -401,17 +411,17 @@
             <div class="col p-4 d-flex flex-column position-static">
               <h3 class="mb-0">обезьяна стучит в дверь</h3>
               <p class="mb-auto">жрать хочу тоже откройте!!!!!!!!!!!!!</p>
-              <p class="lead mb-0"><button id="openMonkeThree">подробнее...</button>
+              <p class="lead mb-0"><button id="openMonkeThree"><a href="#monkethree">Подробнее...</a></button>
             </div>
             <div class="col-auto d-none d-lg-block monkethree">
               <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
-  
-            </div>
+           </div>
           </div>
         </div>
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark popupMonkeThree">      
           <p class="lead mb-0"></p><button id="closeMonkeThree">Закрыть</button>
           <div id="content">
+            <a name="monkethree"></a>
             <div class="grid">
               <div class="item">
                   <div class="div mnThree">

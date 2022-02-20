@@ -123,6 +123,34 @@
 }
 
 
+.help {
+  background-image: url("../images/sofia/help.jpg");
+  background-size: cover;
+}
+
+
+.Mem {
+  background-image: url("../images/sofia/Mem.jpg");
+  background-size: cover;
+}
+
+
+.plak {
+  background-image: url("../images/sofia/plak.jpg");
+  background-size: cover;
+}
+
+
+.Sad {
+  background-image: url("../images/sofia/Sad.jpg");
+  background-size: cover;
+}
+
+.уу {
+  background-image: url("../images/sofia/уу.jpg");
+  background-size: cover;
+}
+
 
 .c2, .r2{
   border: solid 10px rgb(238, 255, 0);

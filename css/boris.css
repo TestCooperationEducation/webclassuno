@@ -88,6 +88,11 @@
     background-size: cover;
   }
 
+  .citykardriving {
+    background-image: url("../images/Boris/city.jpg");
+    background-size: cover;
+  }
+
   #content {
     position: relative;
     /* padding: 40px; */

@@ -97,6 +97,76 @@
     background-size: cover;
   }
 
+  .ang1 { 
+    background-image: url("../images/leonid/angry1.jpg");
+    background-size: cover;
+  }
+
+  .ang2 { 
+    background-image: url("../images/leonid/angry2.jpg");
+    background-size: cover;
+  }
+
+  .des1 { 
+    background-image: url("../images/leonid/desc1.jpg");
+    background-size: cover;
+  }
+
+  .des2 { 
+    background-image: url("../images/leonid/desc2.jpg");
+    background-size: cover;
+  }
+
+  .des3 { 
+    background-image: url("../images/leonid/desc3.jpg");
+    background-size: cover;
+  }
+
+  .ridge1 { 
+    background-image: url("../images/leonid/rid1.jpg");
+    background-size: cover;
+  }
+
+  .ridge2 { 
+    background-image: url("../images/leonid/rid2.jpg");
+    background-size: cover;
+  }
+
+  .ridge3 { 
+    background-image: url("../images/leonid/rid3.jpg");
+    background-size: cover;
+  }
+
+  .mash1 { 
+    background-image: url("../images/leonid/ma1.jpeg");
+    background-size: cover;
+  }
+
+  .mash2 { 
+    background-image: url("../images/leonid/ma2.jpg");
+    background-size: cover;
+  }
+
+  .mash3 { 
+    background-image: url("../images/leonid/ma3.jpg");
+    background-size: cover;
+  }
+
+  .sov1 { 
+    background-image: url("../images/leonid/sv1.jpg");
+    background-size: cover;
+  }
+
+  .sov2 { 
+    background-image: url("../images/leonid/sv2.jpg");
+    background-size: cover;
+  }
+
+  .sov3 { 
+    background-image: url("../images/leonid/sv3.jpg");
+    background-size: cover;
+  }
+
   .c2, .r2{
     border: solid 10px rgb(238, 255, 0);
   }

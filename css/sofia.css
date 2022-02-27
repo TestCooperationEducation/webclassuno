@@ -152,6 +152,11 @@
 }
 
 
+.D {
+  background-image: url("../images/sofia/D.jpg");
+  background-size: cover;
+}
+
 .c2, .r2{
   border: solid 10px rgb(238, 255, 0);
 }

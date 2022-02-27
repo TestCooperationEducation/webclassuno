@@ -167,6 +167,66 @@
     background-size: cover;
   }
 
+  .pizz1 { 
+    background-image: url("../images/leonid/piz1.jpg");
+    background-size: cover;
+  }
+
+  .pizz2 { 
+    background-image: url("../images/leonid/piz2.jpg");
+    background-size: cover;
+  }
+
+  .pizz3 { 
+    background-image: url("../images/leonid/piz3.jpeg");
+    background-size: cover;
+  }
+
+  .mccn1 { 
+    background-image: url("../images/leonid/mcn1.jpg");
+    background-size: cover;
+  }
+
+  .mccn2 { 
+    background-image: url("../images/leonid/mcn2.jpg");
+    background-size: cover;
+  }
+
+  .mccn3 { 
+    background-image: url("../images/leonid/mcn3.jpg");
+    background-size: cover;
+  }
+
+  .sush1 { 
+    background-image: url("../images/leonid/sus1.jpg");
+    background-size: cover;
+  }
+
+  .sush2 { 
+    background-image: url("../images/leonid/sus2.jpg");
+    background-size: cover;
+  }
+
+  .sush3 { 
+    background-image: url("../images/leonid/sus3.jpg");
+    background-size: cover;
+  }
+
+  .abo3 { 
+    background-image: url("../images/leonid/poo3.jpg");
+    background-size: cover;
+  }
+
+  .hobot2 { 
+    background-image: url("../images/leonid/poo2.jpg");
+    background-size: cover;
+  }
+
+  .hobot3 { 
+    background-image: url("../images/leonid/poo3.jpg");
+    background-size: cover;
+  }
+
   .c2, .r2{
     border: solid 10px rgb(238, 255, 0);
   }

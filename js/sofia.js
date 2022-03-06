@@ -117,4 +117,3 @@ $('#openAlphabet').on('click', function() {
 $('#closeAlphabet').on('click', function() {
     $(".popupAlphabet").hide();
 });
-// 

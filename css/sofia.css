@@ -23,7 +23,7 @@
   border: solid 10px rgb(128, 0, 0);
 }
 
-.resurrection {
+.Resurrection {
   border: solid 10px rgb(128, 0, 0);
   background-image: url("../images/Sofia/Resurrection.jpg");
   background-size: cover;
@@ -154,6 +154,43 @@
 
 .D {
   background-image: url("../images/sofia/D.jpg");
+  background-size: cover;
+}
+
+
+.Tatap {
+  background-image: url("../images/sofia/Tatap.jpg");
+  background-size: cover;
+}
+
+
+.xa {
+  background-image: url("../images/sofia/xa.jpg");
+  background-size: cover;
+}
+
+
+.Bogdan {
+  background-image: url("../images/sofia/Bogdan.jpg");
+  background-size: cover;
+}
+
+
+.kakeesh {
+  background-image: url("../images/sofia/kakeesh.jpg");
+  background-size: cover;
+}
+
+
+
+.поп-итик {
+  background-image: url("../images/sofia/поп-итик.jpg");
+  background-size: cover;
+}
+
+
+.попииить {
+  background-image: url("../images/sofia/попииить.jpg");
   background-size: cover;
 }
 

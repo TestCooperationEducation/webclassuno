@@ -1,5 +1,6 @@
 $('#angry').on('click', function() {
     $(".popupAngry").toggle();
+    receiveTexts();
 });
 
 $('#desc').on('click', function() {
@@ -21,3 +22,19 @@ $('#closeDesc').on('click', function() {
 $('#closeRiders').on('click', function() {
     $(".popupRiders").hide();
 });
+
+$('#receiveTexts').on('click', function() {
+    receiveTexts();
+});
+
+function receiveTexts() {
+    var tmp = new Object();
+      $.post('../php/index.php', {}, async function(data) {
+        try {
+            tmp = await JSON.parse(data);
+            alert(tmp[0].Text);
+          } catch(e) {
+            console.log(e);
+          }   
+      });    
+}

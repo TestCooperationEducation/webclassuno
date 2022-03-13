@@ -194,6 +194,33 @@
   background-size: cover;
 }
 
+
+.солнешко {
+  background-image: url("../images/sofia/солнешко.jpg");
+  background-size: cover;
+}
+
+
+
+
+.Meee {
+  background-image: url("../images/sofia/Meee.jpg");
+  background-size: cover;
+}
+
+
+.читер {
+  background-image: url("../images/sofia/читер.jpg");
+  background-size: cover;
+}
+
+
+
+.заберите {
+  background-image: url("../images/sofia/заберите.jpg");
+  background-size: cover;
+}
+
 .c2, .r2{
   border: solid 10px rgb(238, 255, 0);
 }

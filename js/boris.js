@@ -39,7 +39,7 @@ $('#closeDesc').on('click', function() {
 });
 
 $('#openRiders').on('click', function() {
-    $(".popupDesc").toggle();
+    $(".popupRiders").toggle();
 });
 
 $('#closeRiders').on('click', function() {

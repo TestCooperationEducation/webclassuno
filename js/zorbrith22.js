@@ -9,6 +9,7 @@ $('#closeSquidOne').on('click', function() {
 
 $('#openSquidTwo').on('click', function() {
     $(".popupSquidTwo").toggle();
+    receiveTexts();
 });
 
 $('#closeSquidTwo').on('click', function() {
@@ -24,6 +25,7 @@ $('#closeSquidThree').on('click', function() {
 });
 $('#openPoppy').on('click', function() {
     $(".popupPoppy").toggle();
+    receiveTexts();
 });
 
 $('#closePoppy').on('click', function() {
@@ -32,6 +34,7 @@ $('#closePoppy').on('click', function() {
 
 $('#openRainWorld').on('click', function() {
     $(".popupRainWorld").toggle();
+    receiveTexts();
 });
 
 $('#closeRainWorld').on('click', function() {
@@ -40,6 +43,7 @@ $('#closeRainWorld').on('click', function() {
 
 $('#openfnf').on('click', function() {
     $(".popupfnf").toggle();
+    receiveTexts();
 });
 
 $('#closefnf').on('click', function() {
@@ -54,6 +58,7 @@ $('#closeParrotOne').on('click', function() {
 });
 $('#openParrotTwo').on('click', function() {
     $(".popupParrotTwo").toggle();
+    receiveTexts();
 });
 
 $('#closeParrotTwo').on('click', function() {
@@ -61,6 +66,7 @@ $('#closeParrotTwo').on('click', function() {
 });
 $('#openParrotThree').on('click', function() {
     $(".popupParrotThree").toggle();
+    receiveTexts();
 });
 
 $('#closeParrotThree').on('click', function() {
@@ -112,11 +118,38 @@ function applyTexts(data) {
         if (data[i].textName == "squid") {
             $("#sqOneText").append(data[i].text);
         }
+        if (data[i].textName == "squidgame") {
+            $("#sqTwoText").append(data[i].text);
+        }
+        if (data[i].textName == "game") {
+            $("#sqThreeText").append(data[i].text);
+        }
         if (data[i].textName == "poppy") {
             $("#ppOneText").append(data[i].text);
         }
         if (data[i].textName == "playtime") {
             $("#ppTwoText").append(data[i].text);
+        }
+        if (data[i].textName == "RainWorld") {
+            $("#rwOneText").append(data[i].text);
+        }
+        if (data[i].textName == "Rain") {
+            $("#rwTwoText").append(data[i].text);
+        }
+        if (data[i].textName == "Fnf") {
+            $("#fnfOneText").append(data[i].text);
+        }
+        if (data[i].textName == "nf") {
+            $("#fnfTwoText").append(data[i].text);
+        }
+        if (data[i].textName == "parrot") {
+            $("#prOneText").append(data[i].text);
+        }
+        if (data[i].textName == "rrot") {
+            $("#prTwoText").append(data[i].text);
+        }
+        if (data[i].textName == "par") {
+            $("#prThreeText").append(data[i].text);
         }
     }
 }

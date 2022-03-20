@@ -221,6 +221,56 @@
   background-size: cover;
 }
 
+
+.дождик {
+  background-image: url("../images/sofia/дождик.jpg");
+  background-size: cover;
+}
+
+
+.ппп {
+  background-image: url("../images/sofia/ппп.jpg");
+  background-size: cover;
+}
+
+
+.депрешен {
+  background-image: url("../images/sofia/депрешен.jpg");
+  background-size: cover;
+}
+
+
+.лла {
+  background-image: url("../images/sofia/лла.jpg");
+  background-size: cover;
+}
+
+
+.пипигай {
+  background-image: url("../images/sofia/пипигай.jpg");
+  background-size: cover;
+}
+
+
+.ПОПУГАЙ {
+  background-image: url("../images/sofia/ПОПУГАЙ.jpg");
+  background-size: cover;
+}
+
+
+.ЛЯГУШКА {
+  background-image: url("../images/sofia/ЛЯГУШКА.jpg");
+  background-size: cover;
+}
+
+
+
+.ДДД {
+  background-image: url("../images/sofia/ДДД.jpg");
+  background-size: cover;
+}
+
+
 .c2, .r2{
   border: solid 10px rgb(238, 255, 0);
 }

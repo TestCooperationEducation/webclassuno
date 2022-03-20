@@ -1,5 +1,6 @@
   $('#toggleBirds').on('click', function() {
     $(".popupBirds").toggle();
+    receiveTexts();
   });
   
   $('#closeBirds').on('click', function() {
@@ -94,3 +95,31 @@
     $(".popupHob").toggle();
   });
  
+  function receiveTexts() {
+    var tmp = new Object();
+      $.post('../php/indexZorinbanan.php', {}, async function(data) {
+        try {
+            tmp = await JSON.parse(data);
+            // alert(tmp[0].text);
+            // $("#sqOneText").append(tmp[0].text);
+            applyTexts(tmp); 
+          } catch(e) {
+            console.log(e);
+          }   
+      });
+         
+}
+
+function applyTexts(data) {
+  for (var i = 0; i < Object.keys(data).length; i++) {
+      if (data[i].textName == "squid") {
+          $("#ang1text").append(data[i].text);
+      }
+  //     if (data[i].textName == "poppy") {
+  //         $("#ppOneText").append(data[i].text);
+  //     }
+  //     if (data[i].textName == "playtime") {
+  //         $("#ppTwoText").append(data[i].text);
+  //     }
+  }
+}

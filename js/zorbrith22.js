@@ -124,31 +124,6 @@ function applyTexts(data, texName, id) {
     for (var i = 0; i < Object.keys(data).length; i++) {
         if (data[i].textName == texName) {
             $(id).append(data[i].text);
-        }
-        if (data[i].textName == "playtime") {
-            $("#ppTwoText").append(data[i].text);
-        }
-        if (data[i].textName == "RainWorld") {
-            $("#rwOneText").append(data[i].text);
-        }
-        if (data[i].textName == "Rain") {
-            $("#rwTwoText").append(data[i].text);
-        }
-        if (data[i].textName == "Fnf") {
-            $("#fnfOneText").append(data[i].text);
-        }
-        if (data[i].textName == "nf") {
-            $("#fnfTwoText").append(data[i].text);
-        }
-        if (data[i].textName == "parrot") {
-            $("#prOneText").append(data[i].text);
-        }
-        if (data[i].textName == "rrot") {
-            $("#prTwoText").append(data[i].text);
-        }
-        if (data[i].textName == "par") {
-            $("#prThreeText").append(data[i].text);
-        }
         if (data[i].textName == "monke") {
             $("#mnOneText").append(data[i].text);
         }

@@ -270,6 +270,15 @@
   background-size: cover;
 }
 
+.С {
+  background-image: url("../images/sofia/C.jpg");
+  background-size: cover;
+}
+
+.Nescoffe {
+  background-image: url("../images/sofia/Nescoffe.jpg");
+  background-size: cover;
+}
 
 .c2, .r2{
   border: solid 10px rgb(238, 255, 0);

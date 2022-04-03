@@ -175,27 +175,22 @@
   background-size: cover;
 }
 
-
 .kakeesh {
   background-image: url("../images/sofia/kakeesh.jpg");
   background-size: cover;
 }
 
-
-
-.поп-итик {
+.Pop-itic {
   background-image: url("../images/sofia/поп-итик.jpg");
   background-size: cover;
 }
 
-
-.попииить {
+.GGG {
   background-image: url("../images/sofia/попииить.jpg");
   background-size: cover;
 }
 
-
-.солнешко {
+.Sun{
   background-image: url("../images/sofia/солнешко.jpg");
   background-size: cover;
 }
@@ -209,38 +204,38 @@
 }
 
 
-.читер {
+.CHIT {
   background-image: url("../images/sofia/читер.jpg");
   background-size: cover;
 }
 
 
 
-.заберите {
+.pickup {
   background-image: url("../images/sofia/заберите.jpg");
   background-size: cover;
 }
 
 
-.дождик {
+.Rain {
   background-image: url("../images/sofia/дождик.jpg");
   background-size: cover;
 }
 
 
-.ппп {
+.PPP {
   background-image: url("../images/sofia/ппп.jpg");
   background-size: cover;
 }
 
 
-.депрешен {
+.Depression {
   background-image: url("../images/sofia/депрешен.jpg");
   background-size: cover;
 }
 
 
-.лла {
+.LL {
   background-image: url("../images/sofia/лла.jpg");
   background-size: cover;
 }
@@ -270,15 +265,29 @@
   background-size: cover;
 }
 
-.С {
-  background-image: url("../images/sofia/C.jpg");
-  background-size: cover;
-}
-
 .Nescoffe {
   background-image: url("../images/sofia/Nescoffe.jpg");
   background-size: cover;
 }
+
+
+.C {
+  background-image: url("../images/sofia/C.jpg");
+  background-size: cover;
+}
+
+
+.AL {
+  background-image: url("../images/sofia/AL.jpg");
+  background-size: cover;
+}
+
+
+.MM {
+  background-image: url("../images/sofia/MM.jpg");
+  background-size: cover;
+}
+
 
 .c2, .r2{
   border: solid 10px rgb(238, 255, 0);

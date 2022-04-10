@@ -3,7 +3,8 @@
   receiveTexts();
   $('#toggleBirds').on('click', function() {
     $(".popupBirds").toggle();
-    applyTexts(tmp, "toggleBirds");
+    $(".ang1text").html("");
+    applyTexts(tmp, ".ang1text", "angrybirds");
   });
   
   $('#closeBirds').on('click', function() {
@@ -13,7 +14,8 @@
   receiveTexts();
   $('#toggleDescenders').on('click', function() {
     $(".popupDescenders").toggle();
-    applyTexts(tmp, "toggleDescenders");
+    $(".desc1text").html("");
+    applyTexts(tmp, ".desc1text", "descenders");
   });
   
   $('#closeDescenders').on('click', function() {
@@ -23,7 +25,8 @@
   receiveTexts();
   $('#toggleRiders').on('click', function() {
     $(".popupRiders").toggle();
-    applyTexts(tmp, "toggleRiders");
+    $(".rid1text").html("");
+    applyTexts(tmp, ".rid1text", "ridersrepublic");
   });
   
   $('#closeRiders').on('click', function() {
@@ -33,7 +36,8 @@
   receiveTexts();
   $('#toggleBear').on('click', function() {
     $(".popupBear").toggle();
-    applyTexts(tmp, "toggleBear");
+    $(".masha1text").html("");
+    applyTexts(tmp, ".masha1text", "masha");
   });
   
   $('#closeBear').on('click', function() {
@@ -43,7 +47,8 @@
   receiveTexts();
   $('#toggleWB').on('click', function() {
     $(".popupWB").toggle();
-    applyTexts(tmp, "toggleWB");
+    $(".wb1text").html("");
+    applyTexts(tmp, ".wb1text", "wbkids");
   });
   
   $('#closeWB').on('click', function() {
@@ -53,7 +58,8 @@
   receiveTexts();
   $('#toggleSoviet').on('click', function() {
     $(".popupSoviet").toggle();
-    applyTexts(tmp, "toggleSoviet");
+    $(".sov1text").html("");
+    applyTexts(tmp, ".sov1text", "soviet");
   });
   
   $('#closeSoviet').on('click', function() {
@@ -63,7 +69,8 @@
   receiveTexts();
   $('#togglePizza').on('click', function() {
     $(".popupPizza").toggle();
-    applyTexts(tmp, "togglePizza");
+    $(".piz1text").html("");
+    applyTexts(tmp, ".piz1text", "pizza");
   });
 
   $('#closePizza').on('click', function() {
@@ -73,7 +80,8 @@
   receiveTexts();
   $('#toggleMcn').on('click', function() {
     $(".popupMcn").toggle();
-    applyTexts(tmp, "toggleMcn");
+    $(".mac1text").html("");
+    applyTexts(tmp, ".mac1text", "mac");
   });
 
   $('#closeMcn').on('click', function() {
@@ -83,7 +91,8 @@
   receiveTexts();
   $('#toggleSus').on('click', function() {
     $(".popupSus").toggle();
-    applyTexts(tmp, "toggleSus");
+    $(".sus1text").html("");
+    applyTexts(tmp, ".sus1text", "sushi");
   });
  
   $('#closeSus').on('click', function() {
@@ -93,7 +102,8 @@
   receiveTexts();
   $('#toggleAbout').on('click', function() {
     $(".popupAbout").toggle();
-    applyTexts(tmp, "toggleAbout");
+    $(".about1text").html("");
+    applyTexts(tmp, ".about1text", "about");
   });
  
   $('#closeAbout').on('click', function() {
@@ -103,7 +113,8 @@
   receiveTexts();
   $('#toggleSchool').on('click', function() {
     $(".popupSchool").toggle();
-    applyTexts(tmp, "toggleSchool");;
+    $(".school1text").html("");
+    applyTexts(tmp, ".school1text", "school");
   });
  
   $('#closeSchool').on('click', function() {
@@ -113,7 +124,8 @@
   receiveTexts();
   $('#toggleHob').on('click', function() {
     $(".popupHob").toggle();
-    applyTexts(tmp, "toggleHob");;
+    $(".hob1text").html("");
+    applyTexts(tmp, ".hob1text", "hobby");
   });
  
   $('#closeHob').on('click', function() {
@@ -130,67 +142,34 @@ function receiveTexts() {
     });         
 }
 
-function applyTexts(data, id) {
-  for (var i = 0; i < Object.keys(data).length; i++) {
-    if (id == "toggleBirds") {
-      if (data[i].textName == "angrybirds") {
-        $(".ang1text").append(data[i].text);
-      }
-    }
-    if (id == "toggleDescenders") {
-      if (data[i].textName == "descenders") {
-          $(".desc1text").append(data[i].text);
-      }
-    }
-    if (id == "toggleRiders") {
-      if (data[i].textName == "ridersrepublic") {
-        $(".rid1text").append(data[i].text);
-      }
-    }
-    if (id == "toggleBear") {
-      if (data[i].textName == "masha") {
-      $(".masha1text").append(data[i].text);
-      }
-    }
-    if (id == "toggleWB") {
-      if (data[i].textName == "wbkids") {
-        $(".wb1text").append(data[i].text);
-      }
-    }
-    if (id == "toggleSoviet") { 
-      if (data[i].textName == "soviet") {
-        $(".sov1text").append(data[i].text);
-      }
-    }
-    if (id == "togglePizza") {
-      if (data[i].textName == "pizza") {
-        $(".piz1text").append(data[i].text);
-      }
-    }
-    if (id == "toggleMcn") {
-      if (data[i].textName == "mac") {
-        $(".mac1text").append(data[i].text);
-      }
-    }
-    if (id == "toggleSus") {
-      if (data[i].textName == "sushi") {
-        $(".sus1text").append(data[i].text);
-      }
-    }
-    if (id == "toggleAbout") {
-      if (data[i].textName == "about") {
-        $(".about1text").append(data[i].text);
-      }
-    }
-    if (id == "toggleSchool") {
-      if (data[i].textName == "school") {
-        $(".school1text").append(data[i].text);
-      }
-    }
-    if (id == "toggleHob") {
-      if (data[i].textName == "hobby") {
-        $(".hob1text").append(data[i].text);
-      }
+function applyTexts(data, blockName, textName) {
+  for (var i = 0; i < Object.keys(data).length; i++) {    
+    if (data[i].textName == textName) {
+      $(blockName).append(data[i].text);
     }
   }
+}  
+
+$('.signButton').on('click', function() {
+  $(".connection-data").html("");
+  $(".connection-data").append(" \
+      <div class='panel-body'> \
+          <input type='text' value='Логин' id='login'> \
+          <input type='text' value='Пароль' id='pass'> \
+      </div> \
+      <button id='request'>Отправить запрос</button> \
+      ");
+  url = "../js/leonid.js";
+  $.getScript(url);
+});
+
+function loginRequest(login, pass) {
+  $.post('../php/indexLeonid.php', {log: login, password: pass}, async function(data) {
+      try {
+          tmp = await JSON.parse(data);
+          alert(tmp[0].userStatus)
+          } catch(e) {
+          console.log(e);
+          }   
+      });
 }

@@ -144,14 +144,27 @@ function applyTexts(data, texName, id) {
     }
 }
 
+// $('.signButton').on('click', function() {
+//     $(".connection-data").html("");
+//     $(".connection-data").append(" \
+//         <div class='panel-body'> \
+//             <input type='text' value='Логин' id='login'> \
+//             <input type='text' value='Пароль' id='pass'> \
+//         </div> \
+//         <button id='request'>Отправить запрос</button> \
+//         ");
+//     url = "../js/zorbrith22.js";
+//     $.getScript(url);
+// });
+
 $('.signButton').on('click', function() {
     $(".connection-data").html("");
     $(".connection-data").append(" \
-        <div class='panel-body'> \
-            <input type='text' value='Логин' id='login'> \
-            <input type='text' value='Пароль' id='pass'> \
+        <div class='connection-data'> \
+            <input type='text' name='login' id='login'> \
+            <input type='password' name='password' id='password'> \
         </div> \
-        <button id='request'>Отправить запрос</button> \
+        <button id='submit'>submit</button> \
         ");
     url = "../js/zorbrith22.js";
     $.getScript(url);

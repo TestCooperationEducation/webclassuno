@@ -153,15 +153,33 @@ function applyTexts(data, blockName, textName) {
 $('.signButton').on('click', function() {
   $(".connection-data").html("");
   $(".connection-data").append(" \
-      <div class='panel-body'> \
-          <input type='text' value='Логин' id='login'> \
-          <input type='text' value='Пароль' id='pass'> \
-      </div> \
-      <button id='request'>Отправить запрос</button> \
+      <form class='form-5 clearfix'> \
+        <div class='panel-body'> \
+          <p> \
+            <input type='text' placeholder='Логин' id='login'> \
+            <input type='password' placeholder='Пароль' id='password'> \
+          </p> \
+        </div> \
+        <button type='submit' name='submit' id='request'> \
+          <i class='icon-arrow-right'></i> \
+          <span>Вход</span> \
+        </button> \
+      </form> \
       ");
   url = "../js/leonid.js";
   $.getScript(url);
 });
+
+{/* <form class="form-5 clearfix">
+    <p>
+        <input type="text" id="login" name="login" placeholder="Логин">
+        <input type="text" name="password" id="password" placeholder="Пароль">
+    </p>
+    <button type="submit" name="submit">
+        <i class="icon-arrow-right"></i>
+        <span>Вход</span>
+    </button>    
+</form> */}
 
 function loginRequest(login, pass) {
   $.post('../php/indexLeonid.php', {log: login, password: pass}, async function(data) {
@@ -173,3 +191,4 @@ function loginRequest(login, pass) {
           }   
       });
 }
+

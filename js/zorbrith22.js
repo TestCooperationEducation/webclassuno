@@ -1,9 +1,13 @@
 var tmp = new Object();
 receiveTexts();
 $('#openSquidOne').on('click', function() {
-    $(".popupSquidOne").toggle();
-    $("#sqOneText").html("");
-    applyTexts(tmp, "squid", "#sqOneText");
+    if (loginStatus == "good") {
+        $(".popupSquidOne").toggle();
+        $("#sqOneText").html("");
+        applyTexts(tmp, "squid", "#sqOneText");
+    } else {
+        alert("Ошибка входа");
+    }
 });
 
 $('#closeSquidOne').on('click', function() {
@@ -11,9 +15,13 @@ $('#closeSquidOne').on('click', function() {
 });
 
 $('#openSquidTwo').on('click', function() {
-    $(".popupSquidTwo").toggle();
-    $("#sqTwoText").html("");
-    applyTexts(tmp, "squidgame", "#sqTwoText");
+    if (loginStatus == "good") {
+        $(".popupSquidTwo").toggle();
+        $("#sqTwoText").html("");
+        applyTexts(tmp, "squidgame", "#sqTwoText");    
+    } else {
+        alert("Ошибка входа");
+    }
 });
 
 $('#closeSquidTwo').on('click', function() {
@@ -21,20 +29,28 @@ $('#closeSquidTwo').on('click', function() {
 });
 
 $('#openSquidThree').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupSquidThree").toggle();
     $("#sqThreeText").html("");
     applyTexts(tmp, "game", "#sqThreeText");
+    } else {
+        alert("Ошибка входа");
+    }    
 });
 
 $('#closeSquidThree').on('click', function() {
     $(".popupSquidThree").hide();
 });
 $('#openPoppy').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupPoppy").toggle();
     $("#ppOneText").html("");
     $("#ppTwoText").html("");
     applyTexts(tmp, "poppy", "#ppOneText");
     applyTexts(tmp, "playtime", "#ppTwoText");
+    } else {
+        alert("Ошибка входа");
+    } 
 });
 
 $('#closePoppy').on('click', function() {
@@ -42,11 +58,15 @@ $('#closePoppy').on('click', function() {
 });
 
 $('#openRainWorld').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupRainWorld").toggle();
     $("#rwOneText").html("");
     $("#rwTwoText").html("");
     applyTexts(tmp, "RainWorld", "#rwOneText");
     applyTexts(tmp, "Rain", "#rwTwoText");
+    } else {
+        alert("Ошибка входа");
+    }
 });
 
 $('#closeRainWorld').on('click', function() {
@@ -54,75 +74,97 @@ $('#closeRainWorld').on('click', function() {
 });
 
 $('#openfnf').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupfnf").toggle();
     $("#fnfOneText").html("");
     $("#fnfTwoText").html("");
     applyTexts(tmp, "Fnf", "#fnfOneText");
     applyTexts(tmp, "nf", "#fnfTwoText");
+    } else {
+        alert("Ошибка входа");
+    }
 });
 
 $('#closefnf').on('click', function() {
     $(".popupfnf").hide();
 });
 $('#openParrotOne').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupParrotOne").toggle();
     $("#prOneText").html("");
     applyTexts(tmp, "parrot", "#prOneText");
+    } else {
+        alert("Ошибка входа");
+    }
 });
 
 $('#closeParrotOne').on('click', function() {
     $(".popupParrotOne").hide();
 });
 $('#openParrotTwo').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupParrotTwo").toggle();
     $("#prTwoText").html("");
     applyTexts(tmp, "rrot", "#prTwoText");
+    } else {
+        alert("Ошибка входа");
+    }
 });
 
 $('#closeParrotTwo').on('click', function() {
     $(".popupParrotTwo").hide();
 });
 $('#openParrotThree').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupParrotThree").toggle();
     $("#prThreeText").html("");
     applyTexts(tmp, "par", "#prThreeText");
+    } else {
+        alert("Ошибка входа");
+    }
 });
 
 $('#closeParrotThree').on('click', function() {
     $(".popupParrotThree").hide();
 });
 $('#openMonkeOne').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupMonkeOne").toggle();
     $("#mnOneText").html("");
     applyTexts(tmp, "monke", "#mnOneText");
+    } else {
+        alert("Ошибка входа");
+    }
 });
 
 $('#closeMonkeOne').on('click', function() {
     $(".popupMonkeOne").hide();
 });
 $('#openMonkeTwo').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupMonkeTwo").toggle();
     $("#mnTwoText").html("");
     applyTexts(tmp, "knocking", "#mnTwoText");
+    } else {
+        alert("Ошибка входа");
+    }
 });
 
 $('#closeMonkeTwo').on('click', function() {
     $(".popupMonkeTwo").hide();
 });
 $('#openMonkeThree').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupMonkeThree").toggle();
     $("#mnThreeText").html("");
     applyTexts(tmp, "indoor", "#mnThreeText");
+    } else {
+        alert("Ошибка входа");
+    }
 });
 
 $('#closeMonkeThree').on('click', function() {
     $(".popupMonkeThree").hide();
-});
-
-$('#request').on('click', function() {
-    // var login = $('#login').val();
-    // var pass =  $('#pass').val();
-    loginRequest($('#login').val(), $('#pass').val());
 });
 
 function receiveTexts() {    
@@ -142,41 +184,4 @@ function applyTexts(data, texName, id) {
             $(id).append(data[i].text);
         }
     }
-}
-
-// $('.signButton').on('click', function() {
-//     $(".connection-data").html("");
-//     $(".connection-data").append(" \
-//         <div class='panel-body'> \
-//             <input type='text' value='Логин' id='login'> \
-//             <input type='text' value='Пароль' id='pass'> \
-//         </div> \
-//         <button id='request'>Отправить запрос</button> \
-//         ");
-//     url = "../js/zorbrith22.js";
-//     $.getScript(url);
-// });
-
-$('.signButton').on('click', function() {
-    $(".connection-data").html("");
-    $(".connection-data").append(" \
-        <div class='connection-data'> \
-            <input type='text' name='login' id='login'> \
-            <input type='password' name='password' id='password'> \
-        </div> \
-        <button id='submit'>submit</button> \
-        ");
-    url = "../js/zorbrith22.js";
-    $.getScript(url);
-});
-
-function loginRequest(login, pass) {
-    $.post('../php/loginZorinbanan.php', {log: login, password: pass}, async function(data) {
-        try {
-            tmp = await JSON.parse(data);
-            alert(tmp[0].userStatus)
-            } catch(e) {
-            console.log(e);
-            }   
-        });
 }

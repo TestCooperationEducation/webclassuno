@@ -102,7 +102,7 @@ $('#closeFrog').on('click', function() {
     $(".popupFrog").hide();
 });
 
-$('#openСoffee').on('click', function() {
+$('#openCoffee').on('click', function() {
     $(".popupCoffee").toggle();
 });
 

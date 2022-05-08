@@ -3,7 +3,8 @@
 //    $dbUser = "root";
 //    $dbPassword = "";
 
-   $dbconnect = mysqli_connect("localhost", "root", "", "webclass");   
+   $dbconnect = mysqli_connect("localhost", "p96211a3_test", "Aa_123123", "p96211a3_test");   
+//    $dbconnect = mysqli_connect("localhost", "root", "", "webclass"); 
    
    if (mysqli_connect_errno()){
       echo "Connection failed:".mysqli_connect_errno();

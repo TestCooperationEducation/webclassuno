@@ -1,10 +1,13 @@
-  
   var tmp = new Object();
   receiveTexts();
   $('#toggleBirds').on('click', function() {
-    $(".popupBirds").toggle();
-    $(".ang1text").html("");
-    applyTexts(tmp, ".ang1text", "angrybirds");
+    if (loginStatus == "good") {
+         $(".popupBirds").toggle();
+         $(".ang1text").html("");
+        applyTexts(tmp, ".ang1text", "angrybirds");
+    } else {
+        alert("Ошибка входа");
+    }
   });
   
   $('#closeBirds').on('click', function() {
@@ -13,9 +16,13 @@
 
   receiveTexts();
   $('#toggleDescenders').on('click', function() {
-    $(".popupDescenders").toggle();
-    $(".desc1text").html("");
-    applyTexts(tmp, ".desc1text", "descenders");
+    if (loginStatus == "good") {
+        $(".popupDescenders").toggle();
+        $(".desc1text").html("");
+        applyTexts(tmp, ".desc1text", "descenders");
+    } else {
+        alert("Ошибка входа");
+    }
   });
   
   $('#closeDescenders').on('click', function() {
@@ -24,9 +31,13 @@
 
   receiveTexts();
   $('#toggleRiders').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupRiders").toggle();
     $(".rid1text").html("");
     applyTexts(tmp, ".rid1text", "ridersrepublic");
+  } else {
+    alert("Ошибка входа");
+}
   });
   
   $('#closeRiders').on('click', function() {
@@ -35,9 +46,13 @@
   
   receiveTexts();
   $('#toggleBear').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupBear").toggle();
     $(".masha1text").html("");
     applyTexts(tmp, ".masha1text", "masha");
+  } else {
+    alert("Ошибка входа");
+}
   });
   
   $('#closeBear').on('click', function() {
@@ -46,9 +61,13 @@
 
   receiveTexts();
   $('#toggleWB').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupWB").toggle();
     $(".wb1text").html("");
     applyTexts(tmp, ".wb1text", "wbkids");
+  } else {
+    alert("Ошибка входа");
+}
   });
   
   $('#closeWB').on('click', function() {
@@ -57,9 +76,13 @@
  
   receiveTexts();
   $('#toggleSoviet').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupSoviet").toggle();
     $(".sov1text").html("");
     applyTexts(tmp, ".sov1text", "soviet");
+  } else {
+    alert("Ошибка входа");
+}
   });
   
   $('#closeSoviet').on('click', function() {
@@ -68,9 +91,13 @@
 
   receiveTexts();
   $('#togglePizza').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupPizza").toggle();
     $(".piz1text").html("");
     applyTexts(tmp, ".piz1text", "pizza");
+  } else {
+    alert("Ошибка входа");
+}
   });
 
   $('#closePizza').on('click', function() {
@@ -79,9 +106,13 @@
 
   receiveTexts();
   $('#toggleMcn').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupMcn").toggle();
     $(".mac1text").html("");
     applyTexts(tmp, ".mac1text", "mac");
+  } else {
+    alert("Ошибка входа");
+}
   });
 
   $('#closeMcn').on('click', function() {
@@ -90,9 +121,13 @@
  
   receiveTexts();
   $('#toggleSus').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupSus").toggle();
     $(".sus1text").html("");
     applyTexts(tmp, ".sus1text", "sushi");
+  } else {
+    alert("Ошибка входа");
+}
   });
  
   $('#closeSus').on('click', function() {
@@ -101,9 +136,13 @@
  
   receiveTexts();
   $('#toggleAbout').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupAbout").toggle();
     $(".about1text").html("");
     applyTexts(tmp, ".about1text", "about");
+  } else {
+    alert("Ошибка входа");
+}
   });
  
   $('#closeAbout').on('click', function() {
@@ -112,9 +151,13 @@
  
   receiveTexts();
   $('#toggleSchool').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupSchool").toggle();
     $(".school1text").html("");
     applyTexts(tmp, ".school1text", "school");
+  } else {
+    alert("Ошибка входа");
+}
   });
  
   $('#closeSchool').on('click', function() {
@@ -123,9 +166,13 @@
 
   receiveTexts();
   $('#toggleHob').on('click', function() {
+    if (loginStatus == "good") {
     $(".popupHob").toggle();
     $(".hob1text").html("");
     applyTexts(tmp, ".hob1text", "hobby");
+  } else {
+    alert("Ошибка входа");
+}
   });
  
   $('#closeHob').on('click', function() {
@@ -170,25 +217,15 @@ $('.signButton').on('click', function() {
   $.getScript(url);
 });
 
-{/* <form class="form-5 clearfix">
-    <p>
-        <input type="text" id="login" name="login" placeholder="Логин">
-        <input type="text" name="password" id="password" placeholder="Пароль">
-    </p>
-    <button type="submit" name="submit">
-        <i class="icon-arrow-right"></i>
-        <span>Вход</span>
-    </button>    
-</form> */}
-
 function loginRequest(login, pass) {
-  $.post('../php/indexLeonid.php', {log: login, password: pass}, async function(data) {
+  var tmp2 = new Object();
+  $.post('../php/loginLeonid.php', {log: login, password: pass}, async function(data) {
       try {
-          tmp = await JSON.parse(data);
-          alert(tmp[0].userStatus)
-          } catch(e) {
+          tmp2 = await JSON.parse(data);
+          alert(tmp2[0].userStatus)
+      } catch(e) {
           console.log(e);
-          }   
+      } 
       });
 }
 

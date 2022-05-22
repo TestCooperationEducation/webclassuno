@@ -1,4 +1,6 @@
-  var tmp = new Object();
+  var tmp = new Object();  
+  var tmp2 = new Object();
+  var loginStatus = "";
   receiveTexts();
   $('#toggleBirds').on('click', function() {
     if (loginStatus == "good") {
@@ -14,7 +16,7 @@
     $(".popupBirds").hide();
   });
 
-  receiveTexts();
+  
   $('#toggleDescenders').on('click', function() {
     if (loginStatus == "good") {
         $(".popupDescenders").toggle();
@@ -29,7 +31,7 @@
     $(".popupDescenders").hide();
   });
 
-  receiveTexts();
+  
   $('#toggleRiders').on('click', function() {
     if (loginStatus == "good") {
     $(".popupRiders").toggle();
@@ -44,7 +46,7 @@
     $(".popupRiders").hide();
   });
   
-  receiveTexts();
+  
   $('#toggleBear').on('click', function() {
     if (loginStatus == "good") {
     $(".popupBear").toggle();
@@ -59,7 +61,7 @@
     $(".popupBear").hide();
   });
 
-  receiveTexts();
+  
   $('#toggleWB').on('click', function() {
     if (loginStatus == "good") {
     $(".popupWB").toggle();
@@ -74,7 +76,7 @@
     $(".popupWB").hide();
   });
  
-  receiveTexts();
+  
   $('#toggleSoviet').on('click', function() {
     if (loginStatus == "good") {
     $(".popupSoviet").toggle();
@@ -89,7 +91,7 @@
     $(".popupSoviet").hide();
   });
 
-  receiveTexts();
+  
   $('#togglePizza').on('click', function() {
     if (loginStatus == "good") {
     $(".popupPizza").toggle();
@@ -104,7 +106,7 @@
     $(".popupPizza").toggle();
   });
 
-  receiveTexts();
+  
   $('#toggleMcn').on('click', function() {
     if (loginStatus == "good") {
     $(".popupMcn").toggle();
@@ -119,7 +121,7 @@
     $(".popupMcn").toggle();
   });
  
-  receiveTexts();
+  
   $('#toggleSus').on('click', function() {
     if (loginStatus == "good") {
     $(".popupSus").toggle();
@@ -134,7 +136,7 @@
     $(".popupSus").toggle();
   });
  
-  receiveTexts();
+  
   $('#toggleAbout').on('click', function() {
     if (loginStatus == "good") {
     $(".popupAbout").toggle();
@@ -149,22 +151,22 @@
     $(".popupAbout").toggle();
   });
  
-  receiveTexts();
+  
   $('#toggleSchool').on('click', function() {
     if (loginStatus == "good") {
-    $(".popupSchool").toggle();
-    $(".school1text").html("");
-    applyTexts(tmp, ".school1text", "school");
-  } else {
-    alert("Ошибка входа");
-}
+      $(".popupSchool").toggle();
+      $(".school1text").html("");
+      applyTexts(tmp, ".school1text", "school");
+    } else {
+      alert("Ошибка входа");
+    }
   });
  
   $('#closeSchool').on('click', function() {
     $(".popupSchool").toggle();
   });
 
-  receiveTexts();
+  
   $('#toggleHob').on('click', function() {
     if (loginStatus == "good") {
     $(".popupHob").toggle();
@@ -204,7 +206,7 @@ $('.signButton').on('click', function() {
         <div class='panel-body'> \
           <p> \
             <input type='text' placeholder='Логин' id='login'> \
-            <input type='password' placeholder='Пароль' id='password'> \
+            <input type='password' placeholder='Пароль' id='pass'> \
           </p> \
         </div> \
         <button type='submit' name='submit' id='request'> \
@@ -218,14 +220,18 @@ $('.signButton').on('click', function() {
 });
 
 function loginRequest(login, pass) {
-  var tmp2 = new Object();
   $.post('../php/loginLeonid.php', {log: login, password: pass}, async function(data) {
       try {
           tmp2 = await JSON.parse(data);
-          alert(tmp2[0].userStatus)
-      } catch(e) {
+          loginStatus = tmp2[0].userstatus;
+          alert(loginStatus);
+        } catch(e) {
           console.log(e);
       } 
       });
 }
 
+$('#request').on('click', function() {
+  loginRequest($('#login').val(), $('#pass').val());
+  $(".connection-data").hide("");
+});

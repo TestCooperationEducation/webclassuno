@@ -1,11 +1,11 @@
 <?php
-    include("dbconnectZorinbanan.php");
+    include("dbconnectLeonid.php");
     $resultArray = array();
     $tempArray = array();
     $login = (trim($_POST['log']));
     $password = (trim($_POST['password']));
     
-    $sql = "SELECT userstatus FROM loginData WHERE userName='$login' AND userPass='$password'";
+    $sql = "SELECT userstatus FROM logindata WHERE userName='$login' AND userPass='$password'";
 
     if ($result = mysqli_query($dbconnect, $sql)){
         while($row = $result->fetch_object()){

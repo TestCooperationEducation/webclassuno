@@ -17,6 +17,6 @@
         echo json_encode($json, JSON_UNESCAPED_UNICODE);
         mysqli_close($dbconnect);
     }
-    echo json_encode($resultArray, JSON_UNESCAPED_UNICODE);
+    echo json_encode($resultArray);
     mysqli_close($dbconnect);
 ?>

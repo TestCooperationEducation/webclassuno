@@ -26,13 +26,27 @@
 }
 
 .darkest {
-  border: solid 10px rgb(13, 14, 13);
-  background-image: url("../images/VovaPro/angry.png");
+  background-image: url("../images/Denis/DarkestDunge.jpg");
+  background-size: cover;
+}
+
+.witch {
+  background-image: url("../images/Denis/Witch.jpg");
+  background-size: cover;
+}
+
+.Shambler {
+  background-image: url("../images/Denis/Shambler.jpg");
+  background-size: cover;
+}
+
+.Counter-Strik { 
+  background-image: url("../images/Denis/Counter-Strikjpg");
   background-size: cover;
 }
 
 .c2, .r2{
-  border: solid 10px rgb(238, 255, 0);
+  border: solid 10px rgb(255, 0, 0);
 }
 
 #close {

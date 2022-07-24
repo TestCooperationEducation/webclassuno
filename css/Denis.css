@@ -40,8 +40,33 @@
   background-size: cover;
 }
 
-.Counter-Strik { 
-  background-image: url("../images/Denis/Counter-Strikjpg");
+.Counter-Strik {
+  background-image: url("../images/Denis/Counter-Strik.jpg");
+  background-size: cover;
+}
+
+.Special {
+  background-image: url("../images/Denis/Special.jpg");
+  background-size: cover;
+}
+
+.terrorists {
+  background-image: url("../images/Denis/terrorists.jpg");
+  background-size: cover;
+}
+
+.Terraria {
+  background-image: url("../images/Denis/Terraria.jpg");
+  background-size: cover;
+}
+
+.summoner {
+  background-image: url("../images/Denis/summoner.jpg");
+  background-size: cover;
+}
+
+.shooter {
+  background-image: url("../images/Denis/shooter.jpg");
   background-size: cover;
 }
 

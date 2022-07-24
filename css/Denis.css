@@ -24,6 +24,9 @@
 .r1 {
   border: solid 10px rgb(128, 0, 0);
 }
+.c2 {  
+  color: white;
+}
 
 .darkest {
   background-image: url("../images/Denis/DarkestDunge.jpg");

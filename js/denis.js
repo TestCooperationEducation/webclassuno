@@ -1,18 +1,28 @@
 $('#darkest').on('click', function() {
     $(".popupDarkest").toggle();
-    receiveTexts();
+    // receiveTexts();
 });
 
-$('#CounterStrike').on('click', function() {
-    $(".popupCounterStrike").toggle();
+$('#closeDarkest').on('click', function() {
+  $(".popupDarkest").hide();
 });
 
-$('#riders').on('click', function() {
-    $(".popupRiders").toggle();
+$('#oldWitch').on('click', function() {
+  $(".popupOldWitch").toggle();
+  // receiveTexts();
 });
 
+$('#closeOldWitch').on('click', function() {
+  $(".popupOldWitch").hide();
+});
 
+// $('#CounterStrike').on('click', function() {
+//     $(".popupCounterStrike").toggle();
+// });
 
+// $('#riders').on('click', function() {
+//     $(".popupRiders").toggle();
+// });
 
 function receiveTexts() {
     var tmp = new Object();

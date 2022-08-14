@@ -73,6 +73,11 @@
   background-size: cover;
 }
 
+.popupDarkestImage {
+  background-image: url("../images/Denis/shooter.jpg");
+  background-size: cover;
+}
+
 .c2, .r2{
   border: solid 10px rgb(255, 0, 0);
 }

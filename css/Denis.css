@@ -74,6 +74,46 @@
 }
 
 .popupDarkestImage {
+  background-image: url("../images/Denis/yelled.jpg");
+  background-size: cover;
+}
+
+.popupWitchImage {
+  background-image: url("../images/Denis/Witch.jpg");
+  background-size: cover;
+}
+
+.popupShamblerImage {
+  background-image: url("../images/Denis/Shambler.jpg");
+  background-size: cover;
+}
+
+.popupComandImage {
+  background-image: url("../images/Denis/Comand.jpg");
+  background-size: cover;
+}
+
+.popupTrImage {
+  background-image: url("../images/Denis/Tr.jpg");
+  background-size: cover;
+}
+
+.popupSwatImage {
+  background-image: url("../images/Denis/Swat.png");
+  background-size: cover;
+}
+
+.popupTerraImage {
+  background-image: url("../images/Denis/Terra.jpg");
+  background-size: cover;
+}
+
+.popupsummonerImage {
+  background-image: url("../images/Denis/summoner.jpg");
+  background-size: cover;
+}
+
+.popupshooterImage {
   background-image: url("../images/Denis/shooter.jpg");
   background-size: cover;
 }
